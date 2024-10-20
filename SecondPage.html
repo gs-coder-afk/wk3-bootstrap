@@ -11,18 +11,16 @@
 <body>
 
 
-<!-- NAVBAR -->
+<!-- NAVBAR 
+ nav name edited , margin added , container fluid added , links to both pages
+-->
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    
-    
     <div class="container-fluid">
       <a class="navbar-brand" href="Index.html">PokeNav</a>
-      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -32,18 +30,15 @@
             <a class="nav-link" href="SecondPage.html">Regions</a>
           </li>
         </ul>
-        
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      
-        </div>
+         </div>
     </div>
+</nav>
 
-  </nav>
+  <!-- TABLE 
+  put in container , table header in dark mode . each table data 
+  colored to represent element type , accomplised by adding contextual classes 
+  -->
 
-  <!-- TABLE -->
   <div class="container">
   <table class="table">
     <thead>
@@ -113,19 +108,22 @@
   </table>
 </div>
 
-<!-- FORM -->
-<div class="container">
-<div class="mb-3 pt-5 container-fluid">
-    <label for="formGroupExampleInput" class="form-label fs-5">Pokemon Region</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pokemon Region">
-  </div>
-  <div class="mb-3 container-fluid">
-    <label for="formGroupExampleInput2" class="form-label fs-5">Favorite Starter</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Favorite Starter">
-    
-    <button type="button" class="btn btn-dark mt-3">Submit</button>
+<!-- FORM 
+form put into caontainer , added margins & padding . button added to submit form 
+changed color of button  
+-->
 
-</div> 
+<div class="container">
+    <div class="mb-3 pt-5 container-fluid">
+        <label for="formGroupExampleInput" class="form-label fs-5">Pokemon Region</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pokemon Region">
+    </div>
+  <div class="mb-3 container-fluid">
+        <label for="formGroupExampleInput2" class="form-label fs-5">Favorite Starter</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Favorite Starter">
+    
+        <button type="button" class="btn btn-dark mt-3">Submit</button>
+  </div> 
 </div>
 
 
