@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    
+    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Index.html">PokeNav</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SecondPage.html">Regions</a>
+          </li>
+        </ul>
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      
+        </div>
+    </div>
+
+  </nav>
+
+  <!-- TABLE -->
+  <div class="container">
+  <table class="table">
+    <thead>
+      <tr class="table-dark">
+        <th scope="col">Region</th>
+        <th scope="col">Grass Starter</th>
+        <th scope="col">Fire Starter</th>
+        <th scope="col">Water Starter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Kanto</th>
+        <td class="table-success">Bulbasaur</td>
+        <td class="table-danger">Charmander</td>
+        <td class="table-primary">Squirtle</td>
+      </tr>
+      <tr>
+        <th scope="row">Johto</th>
+        <td class="table-success">Chikorita</td>
+        <td class="table-danger">Cyndaquil</td>
+        <td class="table-primary">Totodile</td>
+      </tr>
+      <tr>
+        <th scope="row">Hoenn</th>
+        <td class="table-success">Treecko</td>
+        <td class="table-danger">Torchic</td>
+        <td class="table-primary">Mudkip</td>
+      </tr>
+      <tr>
+        <th scope="row">Sinnoh</th>
+        <td class="table-success">Turtwig</td>
+        <td class="table-danger">Chimchar</td>
+        <td class="table-primary">Piplup</td>
+      </tr>
+      <tr>
+        <th scope="row">Unova</th>
+        <td class="table-success">Snivy</td>
+        <td class="table-danger">Tepig</td>
+        <td class="table-primary">Oshawott</td>
+      </tr>
+      <tr>
+        <th scope="row">Kalos</th>
+        <td class="table-success">Chespin</td>
+        <td class="table-danger">Fennekin</td>
+        <td class="table-primary">Froakie</td>
+      </tr>
+      <tr>
+        <th scope="row">Alola</th>
+        <td class="table-success">Rowlet</td>
+        <td class="table-danger">Litten</td>
+        <td class="table-primary">Popplio</td>
+      </tr>
+      <tr>
+        <th scope="row">Galar</th>
+        <td class="table-success">Grookey</td>
+        <td class="table-danger">Scorbunny</td>
+        <td class="table-primary">Sobble</td>
+      </tr>
+      <tr>
+        <th scope="row">Paldea</th>
+        <td class="table-success">Sprigatito</td>
+        <td class="table-danger">Fuecoco</td>
+        <td class="table-primary">Quaxly</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- FORM -->
+<div class="container">
+<div class="mb-3 pt-5 container-fluid">
+    <label for="formGroupExampleInput" class="form-label fs-5">Pokemon Region</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pokemon Region">
+  </div>
+  <div class="mb-3 container-fluid">
+    <label for="formGroupExampleInput2" class="form-label fs-5">Favorite Starter</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Favorite Starter">
+    
+    <button type="button" class="btn btn-dark mt-3">Submit</button>
+
+</div> 
+</div>
+
+
+
+
+<script scr="node_modules/bootstrap/distr/js/bootstrap.bundle.js"></script>
+
+<footer class="p-5">
+    <div class="text-center">
+    <h6>gs-coder-afk copyright 2024</h6>
+</div>
+</footer>
+
+</body>
+</html>
